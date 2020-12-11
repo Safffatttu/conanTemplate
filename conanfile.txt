@@ -5,5 +5,18 @@
 	# abseil/20181200@bincrafters/stable
 	# sdl2/2.0.12@bincrafters/stable
 	# sfml/2.5.0@bincrafters/stable
+
 [generators]
 	cmake
+
+[options]
+	# sfml:fPIC=True
+	# sfml:shared=True
+	# sfml:window=True
+	# sfml:graphics=True
+	# sfml:network=True
+	# sfml:audio=True
+
+[imports]
+	bin, *.dll -> ./bin
+	lib, *.dylib -> ./bin
