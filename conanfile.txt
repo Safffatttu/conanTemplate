@@ -1,7 +1,9 @@
 [requires]
 	# benchmark/1.5.2
 	# boost/1.74.0
+
 	# abseil/20181200@bincrafters/stable
 	# sdl2/2.0.12@bincrafters/stable
+	# sfml/2.5.0@bincrafters/stable
 [generators]
 	cmake
