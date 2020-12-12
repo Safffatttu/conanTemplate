@@ -2,17 +2,25 @@
 
 ## Requirements 
 Installed and in path:
-- Conan 
-- CMake 
-- Ninja
+- [Conan](https://conan.io/downloads) 
+- [CMake](https://cmake.org/install) 
+- [Ninja](https://github.com/ninja-build/ninja/releases)
+
+Test your instalation, use commands:
+
+```bash
+conan --version
+cmake --version
+ninja --version
+``` 
 
 ## Configuring your project
 
-To configure project just run:
-```
-mkdir -p build && cd build
-cmake .. -GNinja
-ninja
+To configure project run:
+```bash
+mkdir && cd build          # Create and go to build folder
+cmake .. -GNinja           # From build folder configure project
+ninja                      # Build your project 
 ```
 
 To recompile your project just run `ninja` command.
